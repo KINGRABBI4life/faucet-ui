@@ -1,0 +1,119 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1em;
+  opacity: 0.9;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  padding: 20px 30px;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  border: 2px solid #ddd;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+  color: #666;
+  font-weight: 500;
+}
+
+.filter-btn:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.filter-btn.active {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 30px;
+  color: #999;
+}
+
+.empty-state p {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.empty-state small {
+  display: block;
+  color: #bbb;
+  font-size: 0.95em;
+}
+
+.clear-btn {
+  width: calc(100% - 60px);
+  margin: 0 30px 30px;
+  padding: 12px;
+  background: #fee;
+  color: #c33;
+  border: 2px solid #fdd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.clear-btn:hover {
+  background: #fdd;
+  border-color: #c33;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2em;
+  }
+
+  .header {
+    padding: 30px 20px;
+  }
+
+  .filters {
+    padding: 15px 20px;
+  }
+
+  .container {
+    border-radius: 12px;
+  }
+}
