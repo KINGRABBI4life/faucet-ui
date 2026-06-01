@@ -1,0 +1,70 @@
+.faucet-container {
+  margin-top: 30px;
+}
+
+.faucet-content {
+  background: #f8f9ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.faucet-content h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.faucet-description {
+  color: #666;
+  font-size: 0.95em;
+  margin-bottom: 20px;
+}
+
+.tx-info {
+  background: #efe;
+  padding: 12px;
+  border-radius: 6px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.tx-info p {
+  color: #333;
+  font-size: 0.9em;
+  margin-bottom: 8px;
+}
+
+.tx-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.tx-link:hover {
+  text-decoration: underline;
+}
+
+.faucet-info {
+  background: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.faucet-info h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+.faucet-info ol {
+  margin-left: 20px;
+  color: #666;
+  line-height: 1.8;
+  font-size: 0.95em;
+}
+
+.faucet-info li {
+  margin-bottom: 8px;
+}
